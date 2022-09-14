@@ -26,6 +26,14 @@ import Product7Img from './assets/img/products/product-7.png';
 import Product8Img from './assets/img/products/product-8.png';
 import Product9Img from './assets/img/products/product-9.png';
 import Product10Img from './assets/img/products/product-10.png';
+import Product11Img from './assets/img/products/product-11.png';
+import Product12Img from './assets/img/products/product-12.png';
+import Product13Img from './assets/img/products/product-13.png';
+import Product14Img from './assets/img/products/product-14.png';
+import Product15Img from './assets/img/products/product-15.png';
+import Product16Img from './assets/img/products/product-16.png';
+import Product17Img from './assets/img/products/product-17.png';
+import Product18Img from './assets/img/products/product-18.png';
 import TestimonialImg from './assets/img/testimonial.png';
 import Avatar1Img from './assets/img/avatar-1.png';
 import Avatar2Img from './assets/img/avatar-2.png';
@@ -212,75 +220,62 @@ export const products = {
     {
       productList: [
         {
-          image: <Product1Img />,
+          image: <Product11Img />,
           icon: <IoMdAddCircle />,
           name: 'Ceiling Light',
           price: 75,
           oldPrice: 82,
         },
         {
-          image: <Product2Img />,
+          image: <Product12Img />,
           icon: <IoMdAddCircle />,
           name: 'Wood Chair',
           price: 50,
           oldPrice: 70,
         },
         {
-          image: <Product3Img />,
+          image: <Product13Img />,
           icon: <IoMdAddCircle />,
           name: 'Papper Cupboard',
           price: 105,
           oldPrice: 120,
         },
         {
-          image: <Product4Img />,
+          image: <Product14Img />,
           icon: <IoMdAddCircle />,
           name: 'Ole Gundorse Spring',
           price: 75,
           oldPrice: 82,
         },
         {
-          image: <Product5Img />,
+          image: <Product15Img />,
           icon: <IoMdAddCircle />,
           name: 'Treos Seroes 911',
           price: 200,
           oldPrice: 210,
         },
         {
-          image: <Product6Img />,
+          image: <Product16Img />,
           icon: <IoMdAddCircle />,
           name: 'Multi bilderman slibber',
           price: 45,
           oldPrice: 50,
         },
         {
-          image: <Product7Img />,
+          image: <Product17Img />,
           icon: <IoMdAddCircle />,
           name: 'XORA corner desk',
           price: 320,
           oldPrice: 325,
         },
         {
-          image: <Product8Img />,
+          image: <Product18Img />,
           icon: <IoMdAddCircle />,
           name: 'Black Forest Series Wood',
           price: 225,
           oldPrice: 240,
         },
-        {
-          image: <Product9Img />,
-          icon: <IoMdAddCircle />,
-          name: 'Papper Cupboard',
-          price: 105,
-          oldPrice: 120,
-        },
-        {
-          image: <Product10Img />,
-          icon: <IoMdAddCircle />,
-          name: 'Ole Gundorse Spring',
-          price: 75,
-          oldPrice: 82,
-        },
+        
       ],
     },
   ],
