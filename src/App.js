@@ -7,6 +7,8 @@ import NewItems from "./components/NewItems";
 import FeaturesSecond from './components/FeaturesSecond';
 import Products from "./components/Products";
 import Testimonial from "./components/Testimonial";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -16,7 +18,9 @@ const App = () => {
       <NewItems />
       <FeaturesSecond />
       <Products />
-      <Testimonial/>
+      <Testimonial />
+      <Newsletter />
+      <Footer/>
     </div>
   );
 };
