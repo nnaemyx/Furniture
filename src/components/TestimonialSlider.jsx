@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
+import '../slider.css'
 // import required modules
 import { Autoplay, Navigation } from 'swiper';
 import { fromJSON } from 'postcss';
@@ -12,17 +13,27 @@ import { fromJSON } from 'postcss';
 import {testimonial } from '../data'
 const TestimonialSlider = () => {
   return (
-    <Swiper>
+    <Swiper className='testimonialSlider'
+      modules={[Autoplay, Navigation]}
+      navigation={true}
+      autoplay={true}
+    >
       {testimonial.persons.map((person, index) => {
         // destructuring
         const { avatar, name, occupation, message } = person;
         return (
           <SwiperSlide key={index}>
-            <div>
-              <div>
+            <div className='flex flex-col min-h-[250px]'>
+              <div className='flex items-center gap-x-5 mb-9'>
                 {/* avatar */}
                 <img src={avatar.type} alt="" />
+                <div>
+                  <div className='text-xl font-semibold'>{ name}</div>
+                  <div className='text-gray-500'>{ occupation}</div>
+                </div>
               </div>
+              {/* text */}
+              <div className='text-xl max-w-[570px]'>{ message}</div>
             </div>
           </SwiperSlide>
         )
