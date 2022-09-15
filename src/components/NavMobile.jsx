@@ -5,7 +5,7 @@ import { navigation } from '../data';
 
 const NavMobile = () => {
   return (
-    <nav className='bg-white shadow-2xl w-full h-full'>
+    <nav className='bg-white shadow-2xl w-[60%] h-full'>
       <ul className='text-center h-full flex flex-col items-center justify-center gap-y-6'>
         {navigation.map((item, index) => {
           return (
