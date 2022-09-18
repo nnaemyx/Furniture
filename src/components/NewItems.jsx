@@ -10,7 +10,7 @@ const NewItems = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row ">
           {/* text */}
-          <div className="flex md:flex-col items-baseline gap=x=6 mb-6 lg:mb-0">
+          <div className="flex md:flex-col items-baseline gap-x-6 mb-6 lg:mb-0">
             <h2 className="title max-w-[245px] lg:mt-[30px] lg:mb-[90px]">
               {title}
             </h2>
